@@ -1,0 +1,2 @@
+Add this to your bashrc to override your vim/emacs/nano commands
+alias vim='sh /path/to/remove_swp_file.sh'

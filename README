@@ -1,2 +1,10 @@
+This script is designed to save time when using vim/emacs/nano to edit a file
+This will automatically detect a .FILE.swp file, and ask you if you want to delete it before edditting.
+If (y) the swap file is deleted, and the vim command opens the file for you.
+If (n) the program exits
+
+If no swap file existed, the vim command executes like normally
+
+
 Add this to your bashrc to override your vim/emacs/nano commands
 alias vim='sh /path/to/remove_swp_file.sh'
